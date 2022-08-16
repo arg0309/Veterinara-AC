@@ -1,0 +1,87 @@
+@media screen and (max-width:600px){
+    /* HEADER */
+    .Container{
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+    .Información-general{
+        margin: 0;
+    }
+
+    .Nombre{
+        margin: 0;
+    }
+
+    nav ul li a{
+        font-size: 15px;
+    }
+    /* CONTENEDOR */
+    .Contenedor{
+        display: flex;
+        flex-direction: column;
+        }
+    .Contenedor .Contenido{        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 20px;  
+    }
+    .Contenedor .Texto{
+        text-align: center;        
+    }
+    .Contenedor .Texto p{
+        margin: 0;
+    }
+    .Contenedor     .Texto a{
+        margin: 0;
+    }
+    .Contenedor .Imagen{
+        width: 40%;
+    }
+    .Contenedor img{
+        margin: 0;
+    }
+    .Recomendaciones{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 5px 10px 5px;
+    }
+    .Cuidados{
+        margin: 0;
+        width: 97.8%;
+        margin-bottom: 10px;
+    }
+    .Cuidados h1{
+        width: 90%;
+        margin-left: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .Viajes{
+        margin: 0;
+        width: 97.8%;
+    }
+    .Viajes h1{
+        width: 90%;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .Formulario{
+        width: 97.8%;
+        margin:0px;
+        padding-left: 10px;
+    }
+
+    /* FOOTER */
+    footer{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 95%;
+    }
+    
+}
